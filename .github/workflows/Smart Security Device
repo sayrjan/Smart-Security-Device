@@ -13,6 +13,17 @@
             color: #333;
         }
 
+        /* Header styles */
+        header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo {
+            width: 150px; /* Adjust the width of the logo */
+            height: auto;
+        }
+
         .container {
             width: 70%;
             margin: 50px auto;
@@ -105,9 +116,13 @@
 </head>
 <body>
 
-<div class="container">
+<header>
+    <!-- Logo Image -->
+    <img src="images/logo.png" alt="Smart Security Devices Logo" class="logo">
     <h1>Smart Security Devices</h1>
+</header>
 
+<div class="container">
     <!-- Category Selection -->
     <label for="categorySelect">Choose Device Category:</label>
     <select id="categorySelect">
@@ -289,3 +304,4 @@
 
 </body>
 </html>
+![462587290_1015942900586646_125014613985439129_n](https://github.com/user-attachments/assets/e136ba21-6af1-45e7-b46c-005dc831c76b)
